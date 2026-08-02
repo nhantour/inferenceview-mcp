@@ -1,0 +1,37 @@
+{
+  "name": "@nhantour/inferenceview-mcp",
+  "version": "1.1.0",
+  "description": "MCP tools for x402 preflight and claim verification through InferenceView",
+  "type": "module",
+  "main": "shim.mjs",
+  "bin": {
+    "inferenceview-mcp": "shim.mjs"
+  },
+  "scripts": {
+    "start": "node shim.mjs",
+    "check": "node --check shim.mjs"
+  },
+  "mcpName": "io.github.nhantour/inferenceview",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhantour/inferenceview-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "ai-agents",
+    "agent-commerce",
+    "verification"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "@x402/axios": "^2.0.0",
+    "@x402/evm": "^2.0.0",
+    "axios": "^1.11.0",
+    "viem": "^2.33.3",
+    "zod": "^3.25.76"
+  }
+}
