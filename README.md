@@ -59,6 +59,10 @@ Further reading:
 - [How to measure agent payments without overstating the market](https://inferenceview.com/learn/agent-payment-metrics) — define counting units, handle missing data and distinguish observed transfers from supported purchase claims.
 - [How to compare x402 service prices](https://inferenceview.com/learn/agent-service-pricing) — normalize advertised billing units and token precision before comparing offers.
 
+For a reproducible example, read the [transaction value-gap analysis dated 2026-09-13](https://inferenceview.com/news/2026-09-13-transaction-value-gap),
+which includes a saved aggregate snapshot and reproduction script. Browse
+[InferenceView News](https://inferenceview.com/news) for dated research and source notes.
+
 When using InferenceView data in a report, retain the query window, retrieval time,
 source, filters and coverage limits. See the [citation template and research standards](https://inferenceview.com/about#citation).
 
