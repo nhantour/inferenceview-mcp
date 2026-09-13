@@ -47,6 +47,21 @@ never commit it or paste it into an issue.
 - Hosted shim source: https://verify.inferenceview.com/shim.mjs
 - Live service health: https://verify.inferenceview.com/health
 
+## Research guides
+
+Start with the [research quickstart](docs/research-quickstart.md) for the public
+read-only APIs, denominator rules, service-offer evidence and reproducible citations.
+It also explains how those interfaces differ from this repository's paid VERIFY shim.
+
+Further reading:
+
+- [How to read Tempo transaction data](https://inferenceview.com/learn/tempo-transaction-data) — interpret transaction identity, token amounts, fees and collection coverage.
+- [How to measure agent payments without overstating the market](https://inferenceview.com/learn/agent-payment-metrics) — define counting units, handle missing data and distinguish observed transfers from supported purchase claims.
+- [How to compare x402 service prices](https://inferenceview.com/learn/agent-service-pricing) — normalize advertised billing units and token precision before comparing offers.
+
+When using InferenceView data in a report, retain the query window, retrieval time,
+source, filters and coverage limits. See the [citation template and research standards](https://inferenceview.com/about#citation).
+
 ## Evidence boundary
 
 VERIFY preflight and x402 payment are live. This repository does not claim
